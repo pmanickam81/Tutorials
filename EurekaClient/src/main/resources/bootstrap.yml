@@ -1,0 +1,5 @@
+---
+spring:
+  profiles: text
+  application:
+    name: eureka-client-text

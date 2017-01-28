@@ -1,0 +1,11 @@
+# Depending on which profile is active, the application gives 
+# itself a different name when registering with Eureka
+---
+spring:
+  profiles: default
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      uri: http://localhost:8001
+
